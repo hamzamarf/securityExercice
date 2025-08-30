@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PasswordTest",
+            "request": "launch",
+            "mainClass": "com.example.securityExercice.PasswordTest",
+            "projectName": "securityExercice"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SecurityExerciceApplication<securityExercice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.securityExercice.SecurityExerciceApplication",
+            "projectName": "securityExercice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
