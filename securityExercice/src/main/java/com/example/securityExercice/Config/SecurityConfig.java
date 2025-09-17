@@ -61,7 +61,7 @@ public PasswordEncoder passwordEncoder() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // toutes les routes
-                        .allowedOrigins("http://localhost:5173") // ton front React
+                        .allowedOrigins("http:10.1.3.98") // ton front React
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);

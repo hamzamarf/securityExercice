@@ -24,7 +24,7 @@ import com.example.securityExercice.UserDto;
 
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://10.1.3.98")
 public class UserController {
 
     @Autowired private fileService fileservice;
